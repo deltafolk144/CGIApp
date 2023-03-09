@@ -28,7 +28,11 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  flutter_svg: ^2.0.2
+  sembast: ^3.4.0+6
+  path_provider: ^2.0.13
+  http: ^0.13.5
+  fluttertoast: ^8.2.1
+  flutter_native_splash: ^2.2.18
   internet_connection_checker: ^1.0.0+1
   flutter:
     sdk: flutter
@@ -90,3 +94,33 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+  # flutter_native_splash-development.yaml
+
+flutter_native_splash:
+
+  color: "#48A9C5"
+
+  image: assets/logo-development.png
+
+  branding: assets/branding-development.png
+
+  color_dark: "#48A9C5"
+
+  image_dark: assets/logo-development.png
+
+  branding_dark: assets/branding-development.png
+
+  android_12:
+
+    image: assets/logo-development.png
+
+    icon_background_color: "#48A9C5"
+
+    image_dark: assets/logo-development.png
+
+    icon_background_color_dark: "#48A9C5"
+
+  web: false
+
+# flutter_native_splash-acceptance.yaml
